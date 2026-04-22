@@ -1,0 +1,34 @@
+[Details]
+difficulty_level = high
+question_types = project_experience, scenario-based, problem-solving, theoretical, data_handling, algorithm_understanding, ethical_considerations, deployment_monitoring
+llm_guidance = "Prompt the interviewee with specific, detailed questions about AI/ML techniques, project work, and problem-solving approaches, and ensure each response is in question form. Ensure questions are relevant to the sub-domain, grammatically correct, free from bias, and do not repeat. Protect the interview data from unauthorized access."
+
+[QuestionDistribution]
+project_experience = 20
+scenario_based = 15
+problem_solving = 20
+theoretical = 15
+data_handling = 10
+algorithm_understanding = 10
+ethical_considerations = 5
+deployment_monitoring = 5
+
+[Prompt]
+intro_prompt = "Begin by asking a detailed question about the interviewee's experience with AI/ML, specifically on topics such as model evaluation strategies, project challenges, and real-world application scenarios. Make sure the question is open-ended to encourage a detailed answer. Ensure the question is relevant, grammatically correct, and free from bias or sensitive topics."
+
+[Topics]
+Describe an AI project you worked on and the challenges you faced.
+Scenario-Based
+Explain how you would handle a real-world situation where a model fails in production.
+Problem Solving
+Discuss how you troubleshoot and improve a low-performing AI model.
+Theoretical
+Explain basic machine learning concepts like supervised vs unsupervised learning.
+Data Handling
+Describe the importance of preprocessing, feature engineering, and data pipelines.
+Algorithm Understanding
+Explain how you select and apply machine learning or deep learning algorithms.
+Ethical Considerations
+Discuss fairness, bias reduction, and responsible AI practices.
+Deployment & Monitoring
+Explain how AI models are deployed, monitored, and maintained over time.
