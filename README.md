@@ -84,7 +84,7 @@ AI-Multi-Modal-Interview-Assistant/
 4. Install the spaCy language model used by the resume parser.
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/mshoaib40458/MultiModal-Interview-Assistant.git
 cd AI-Multi-Modal-Interview-Assistant
 python -m venv venv
 
